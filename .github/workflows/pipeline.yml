@@ -14,6 +14,6 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Build for Linux
-        run: dotnet publish -r linux-x64 --configuration ReleaseComplete
+      run: dotnet publish -r linux-x64 --configuration ReleaseComplete
     - name: Build for Windows
-        run: dotnet publish -r win-x64 --configuration ReleaseComplete
+      run: dotnet publish -r win-x64 --configuration ReleaseComplete
