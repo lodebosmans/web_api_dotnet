@@ -20,5 +20,5 @@ jobs:
     - name: Upload artifact - Windows
       uses: actions/upload-artifact@v1.0.0
       with:
-        name: zipfilename.exe
-        path: web_api_dotnet/bin/Release/net6.0/win-x64/publish/zipfilename.exe
+        name: MyWebAPICore_zipfilename.exe
+        path: bin/Release/net6.0/win-x64/publish/MyWebAPICore.exe
